@@ -22,6 +22,7 @@ namespace TodoApp_Backend
                 {
                     options.TokenValidationParameters = new TokenValidationParameters
                     {
+                        //test comment
                         ValidateIssuer = true,
                         ValidateAudience = true,
                         ValidateIssuerSigningKey = true,
